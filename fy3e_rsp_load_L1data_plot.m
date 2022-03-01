@@ -127,7 +127,7 @@ ylabel(cb,{'Differential Charging Potential';'log_{10}([-V/V])'},'rotation',90,'
 set(gca,'clim',[0,2])
 hold off
 set(gcf,'color','w')
-% title('DP1')
+title('DP1','fontsize',16)
 
 %save D:\Softwares\MATLAB\CodeFile\fy3e\data\fy3e_orbit_data_20210815 orbitdata
 % dc_global_data.time = time;
